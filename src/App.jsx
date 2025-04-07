@@ -1,14 +1,17 @@
-import { useState } from 'react';
-
-import './App.css';
+import RouterApp from "./router/RouterApp";
+import Navbar from "./components/common/Navbar";
+import "./App.css";
+import Footer from "./components/common/Footer";
 
 function App() {
   return (
-    <>
-      <h1 class='text-3xl font-bold underline mt-20 py-20 bg-stone-600 text-center'>
-        Hello world!
-      </h1>
-    </>
+    <div className="bg-yellow-100 ">
+      <div className="max-w-[1240px] mx-auto">
+        <Navbar />
+        <RouterApp />
+        <Footer />
+      </div>
+    </div>
   );
 }
 
