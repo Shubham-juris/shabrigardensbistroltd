@@ -19,5 +19,20 @@ const menuItems1 = [
 //Second Menu
 
 export default function MenuMain() {
-  return <Menu menuItems={menuItems1} />;
+  return (
+    <div>
+      <div>
+        <h1 className="text-center text-4xl mt-8">Breakfast Menu</h1>
+        <Menu menuItems={menuItems1} />
+      </div>
+      <div>
+        <h1 className="text-center text-4xl mt-8">Kathyavadi</h1>
+        <Menu menuItems={menuItems1} />
+      </div>
+      <div>
+        <h1 className="text-center text-4xl mt-8">Desert</h1>
+        <Menu menuItems={menuItems1} />
+      </div>
+    </div>
+  );
 }

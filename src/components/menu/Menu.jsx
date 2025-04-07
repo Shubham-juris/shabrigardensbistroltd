@@ -1,6 +1,6 @@
 const Menu = ({ menuItems }) => {
   return (
-    <div className="bg-yellow-100 py-10 px-6">
+    <div className="bg-yellow-100 py-10 px-6 border-b border-gray-300">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {menuItems.map((item, idx) => (
           <div key={idx} className="text-center text-gray-800">
