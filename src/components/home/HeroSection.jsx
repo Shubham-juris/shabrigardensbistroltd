@@ -16,7 +16,7 @@ const heroImageVariants = {
 export default function HeroSection() {
   return (
     <div
-      className="flex flex-col lg:flex-row items-center justify-between mt-10 px-4 sm:px-8 space-y-8 lg:space-y-0 lg:space-x-8 py-10"
+      className="flex  flex-col lg:flex-row items-center justify-between mt-25 px-4 sm:px-8 space-y-8 lg:space-y-0 lg:space-x-8 py-10"
       style={{
         backgroundImage: `url(https://images.unsplash.com/photo-1707274860723-52233290a977?q=80&w=2123&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)`,
         backgroundRepeat: "repeat",
