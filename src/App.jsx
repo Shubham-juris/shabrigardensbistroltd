@@ -5,7 +5,7 @@ import Footer from "./components/common/Footer";
 
 function App() {
   return (
-    <div className="bg-yellow-100 ">
+    <div className="bg-white ">
       <div className="max-w-[1240px] mx-auto">
         <Navbar />
         <RouterApp />

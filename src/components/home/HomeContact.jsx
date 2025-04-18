@@ -20,7 +20,7 @@ const HomeContactUs = () => {
 
           <div>
             <h3 className="font-semibold text-lg">Shabri Garden Bistro</h3>
-            <p>Sector 13, Gandhinagar, Gandhinagar, Gujarat, India</p>
+            <p>Sector 13,Ludhiana, India</p>
             <p className="text-black mt-1 font-medium">+91 9855825889</p>
           </div>
 
