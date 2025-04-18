@@ -15,11 +15,11 @@ const Navbar = () => {
       transition={{ duration: 0.6 }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+        <div className="flex justify-between itemis-center h-20">
           {/* Logo */}
           <div className="flex items-center gap-2">
             <img src={logo} alt="Logo" className="h-16 w-16 rounded-full shadow-lg" />
-            <h1 className="text-lg font-bold text-gray-700">Shabri Bistro</h1>
+            <h1 className="text-lg font-bold text-gray-700">ShabriGardensBistro</h1>
           </div>
 
           {/* Desktop Menu */}
