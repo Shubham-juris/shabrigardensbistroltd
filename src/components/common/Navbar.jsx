@@ -16,14 +16,13 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between itemis-center h-20">
-          {/* Logo */}
-          <div className="flex items-center gap-2">
-            <img src={logo} alt="Logo" className="h-16 w-16 rounded-full shadow-lg" />
-            <h1 className="text-lg font-bold text-gray-700">ShabriGardensBistro</h1>
-          </div>
+        <Link to="/" className="flex items-center gap-2">
+  <img src={logo} alt="Logo" className="h-16 w-16 rounded-full shadow-lg" />
+  <h1 className="text-lg font-bold text-gray-700">ShabriGardensBistro</h1>
+</Link>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-10 text-sm font-semibold text-gray-700">
+          <div className="hidden  px-19 py-6 md:flex space-x-10 text-sm font-semibold text-gray-700">
             <Link to="/" className="hover:text-teal-600 transition-colors duration-300">
               Home
             </Link>
@@ -36,7 +35,7 @@ const Navbar = () => {
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden">
+          <div className="md:hidden py-6">
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-black focus:outline-none"
