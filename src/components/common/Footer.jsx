@@ -16,7 +16,7 @@ const Footer = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2, duration: 0.6 }}
       >
-        {["Home", "Menu", "Contact"].map((label, idx) => (
+        {[" "].map((label, idx) => (
           <Link
             key={idx}
             to={`/${label.toLowerCase()}`}
